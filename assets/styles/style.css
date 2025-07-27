@@ -18,7 +18,7 @@
 
 body,
 html {
-  background-color: rgba(255, 251, 223, 0.675);
+  background-color: #f6f7fae2;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -551,6 +551,7 @@ button > a {
   input,
   textarea:focus {
     outline: none;
+    background-color: #f6f7fae2;
   }
 
   input::placeholder {
@@ -575,7 +576,7 @@ button > a {
     font-family: "Poppins-Regular", sans-serif;
     font-size: 12px;
     color: rgba(34, 39, 33, 0.628);
-    background-color: rgba(255, 251, 223, 0.675);
+    background-color: #f6f7fae2;
   }
 
   select {
@@ -602,7 +603,7 @@ button > a {
     font-family: "Poppins-Regular", sans-serif;
     font-size: 13px;
     color: var(--text-color);
-    background-color: rgba(255, 251, 223, 0.675);
+    background-color: #f6f7fae2;
   }
 
   #submit {
