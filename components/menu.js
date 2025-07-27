@@ -6,10 +6,10 @@ export const menuMobile = () => {
 
         if(!menu.classList.contains('menuAtivo')) {
             menu.classList.add('menuAtivo');
-            icon.setAttribute("src", "../assets/images/menu-style-two.svg");
+            icon.setAttribute("src", "./assets/images/menu-style-two.svg");
         } else {
             menu.classList.remove('menuAtivo')
-            icon.setAttribute("src", "../assets/images/menu.svg");
+            icon.setAttribute("src", "./assets/images/menu.svg");
         }
     })
 }
