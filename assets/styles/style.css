@@ -7,6 +7,7 @@
 :root {
   /* CORES */
   --c-white: #fffbdf;
+  --background: #f6f7fae2;
   --c-green: #30382f;
   --c-green-light: #30382f7b;
   --text-color: #222721;
@@ -18,7 +19,7 @@
 
 body,
 html {
-  background-color: #f6f7fae2;
+  background-color: var(--background);
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -144,7 +145,7 @@ button > a {
     transform: translateY(-20px);
     pointer-events: none;
     transition: opacity 0.5s ease, transform 0.5s ease;
-    background-color: rgb(255, 251, 223);
+    background-color: #f6f7fa;
     min-height: 50vh;
     opacity: 0;
     width: 100%;
@@ -442,7 +443,7 @@ button > a {
 
   .ball.atual {
     border: 1px solid var(--c-green-light);
-    background-color: var(--c-white);
+    background-color: var(--background);
   }
 
   /*? FAQ */
